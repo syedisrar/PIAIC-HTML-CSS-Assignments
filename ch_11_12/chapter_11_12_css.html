@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Chapter 11 & 12 CSS</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <style>
+            
+            h1{font-family: serif;}
+
+            h2{
+                padding-bottom: 10px;
+                font-family:sans-serif;     
+                letter-spacing: 2px;
+            }
+
+            p~h2::first-letter{font-size: 200%;}
+            
+            p{font-family: sans-serif;
+            }   
+            
+            li{font-family: sans-serif; }
+
+            .h2shadow{text-shadow: 1px 1px 10px #2e2c2c;}
+
+            span{font-weight: bold;}          
+
+        </style>
+    </head>
+    <body>    
+        <header>
+
+        </header>    
+        <h1> PIAIC </h1>
+        <h2 class="h2shadow">PRESIDENTIAL INITIATIVE FOR ARTIFICIAL INTELLIGENCE AND COMPUTING</h2>
+        <p>
+            Presidential Initiative for Artificial Intelligence and Computing (PIAIC) is a privately funded not-
+            for-profit educational initiative started by President of Pakistan, Dr. Arif Alvi, Kazi Rahat Ali, and
+            Zia Khan to help promote education, research and business opportunities in emerging tech
+            fields like
+        </p>
+        <ul >
+            <li>
+                <a href=#CNC style="text-decoration:none;" title="Go to page 1">Cloud Native Computing</a>
+            </li>
+            <li>
+                <a href=#AI style="text-decoration:none;" title="Go to page 1">Artificial Intelligence</a>
+            </li>
+            <li>
+                <a href=#BC style="text-decoration:none;" title="Go to page 1"> Blockchain</a>
+            </li>
+            <li>
+                <a href=#IOT style="text-decoration:none;" title="Go to page 2"> Internet Of Things</a>
+            </li>
+        </ul>
+
+        <h2>Cloud Native computing:</h2>
+        <p ID="CNC">
+            The <span>Cloud Native Computing</span> program prepares the students to program in open source
+            technologies like, <span>Linux, Docker, Kubernetes, JavaScript, Node.js, React and React Native</span>
+            while introducing the students to development of Microservices and software development
+            techniques on cloud platforms like AWS.
+        </p>
+
+        <h2> Artificial Intelligence:</h2>
+        <p id="AI">
+            The <span>artificial intelligence</span> program of PIAIC takes the student through the foundation of the AI
+            technology, via teaching programming in open source languages like <span>Python, Numpy, Pandas,
+            Tensorflow 2.0 and Flask,</span> and teaching deploying practical AI solutions and use cases, and
+            ending with real-life examples of modern day AI in practice.
+        </p>
+
+        <h2>Blockchain:</h2>
+        <p id="BC">
+            The main emphasis of <span>Blockchain</span> program is to understand the blockchains like <span>Ethereum
+            and Hyperledger (Fabric)</span>, and learn to program in languages such as Solidity, JavaScript on
+            frameworks like Node.js. The program also introduces them to development of Distributed Apps
+            (DApps), frameworks like Web3 and Truffle and an in-depth understanding of Blockchain-as-a-
+            service (BaaS) and how to develop and offer an Initial Coin Offering (ICO) of a crypto-token.
+        </p>
+        <h2>Internet of Things:</h2>
+        <p ID="IOT">
+            The <span>Internet of things</span> program introduces the students to open source development
+            technologies like <span>Rust, Embedded Rust, WebAssembly, Hyper, Diesel, Google Assistant,
+            and Kubernetes</span> while making them efficient in developing Micro Services for IoT Edge, IoT
+            Cloud, and voice computing for device control.
+        </p>
+
+    </body>
+</html>
