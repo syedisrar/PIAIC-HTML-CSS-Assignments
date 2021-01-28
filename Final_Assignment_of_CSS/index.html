@@ -2,8 +2,9 @@
 <html lang="en">
   <head>
     <!--
-    color: #8dc63f RGB: 141,198,63
+    color: #8dc63f RGB: 141,198,63 green
     #ffbd1a #ff831d
+    #f1f2f2  light grey
     -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -31,16 +32,17 @@
         }
       }
     </style>
-
-    
     <!-- Custom styles for this template -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css">   
+
     <link href="carousel.css" rel="stylesheet">
   </head>
+
   <body>
     <header class="header">
       <div class="social">
-          <div class="media circle-icon"><i class="fa fa-facebook-f"></i></div>
+          <div class="media circle-icon"><i class="fa fa-facebook"></i></div>
           <div class="media circle-icon"><i class="fa fa-twitter"></i></div>
           <div class="media circle-icon"><i class="fa fa-google-plus"></i></div>
           <div class="media circle-icon"><i class="fa fa-linkedin"></i></div>
@@ -58,35 +60,37 @@
       </div>
     </header> 
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
-        <img src="./picture/panalogo.png" style="width: 140px;"></img>
+        <img src="./picture/panalogo.png" style="width: 120px;"></img>
  
         <div class="navbar-right" id="navbarText">
           <ul class="navbar-nav navbar-right">
               <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#why">WHY US</a>
+                  <a class="nav-link" aria-current="page" href="#whyus"> 
+                    <span class="underline-on-hover">WHY US</span>
+                  </a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="#about">ABOUT</a>
+                  <a class="nav-link" href="#about"><span class="underline-on-hover">ABOUT</span></a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="#services">SERVICES</a>
+                  <a class="nav-link" aria-current="page" href="#services"><span class="underline-on-hover">SERVICES</span></a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="#portfolio">PORTFOLIO</a>
+                  <a class="nav-link" href="#portfolio"><span class="underline-on-hover">PORTFOLIO</span></a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="#process">PROCESS</a>
+                  <a class="nav-link" href="#process"><span class="underline-on-hover">PROCESS</span></a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="#review">REVIEWS</a>
+                <a class="nav-link" href="#reviews"><span class="underline-on-hover">REVIEWS</span></a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="#skill">OUR SKILLS</a>
+                  <a class="nav-link" href="#skillS"><span class="underline-on-hover">OUR SKILLS</span></a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="#contact">CONTACT US</a>
+                  <a class="nav-link" href="#contact"><span class="underline-on-hover">CONTACT US</span></a>
               </li>
           </ul>
 
@@ -95,150 +99,635 @@
   </nav>
 <!-- <main> -->
 
-  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" style="margin-bottom: 30px;">
     <ol class="carousel-indicators">
-      <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
-      <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
-      <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+      <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+      <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+      <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-
-        <div class="container">
-          <div class="carousel-caption">
-            <h1>WE ARE EXPERTS</h1>
-            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-            <p><a class="btn btn-lg btn-primary button1" href="#" role="button">READ MORE</a></p>
-          </div>
+        <img src="./picture/carouselimage1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h2>WE ARE EXPERTS</h2>
+          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+          <p><a class="btn  button1 underline-on-hover" href="#" role="button">READ MORE</a></p>
         </div>
       </div>
       <div class="carousel-item">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-
-        <div class="container">
-          <div class="carousel-caption">
-            <h1>WE ARE EXPERTS</h1>
-            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-            <p><a class="btn btn-lg btn-primary button1" href="#" role="button">READ MORE</a></p>
-          </div>
-          social </div>
+        <img src="./picture/carouselimage2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h2>WE ARE EXPERTS</h2>
+          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+          <p><a class="btn underline-on-hover button1" href="#" role="button">READ MORE</a></p>
+        </div>
       </div>
       <div class="carousel-item">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-
-        <div class="container">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>WE ARE EXPERTS</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-primary button1" href="#" role="button">READ MORE</a></p>
-            </div>
-            social </div>
+        <img src="./picture/carouselimage3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h2>WE ARE EXPERTS</h2>
+          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+          <p><a class="btn underline-on-hover button1" href="#" role="button">READ MORE</a></p>
         </div>
       </div>
     </div>
-    <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Previous</span>
     </a>
-    <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </a>
   </div>
 
-
-  <!-- Marketing messaging and featurettes
+  <!-- OUR ADVANTAGES
   ================================================== -->
   <!-- Wrap the rest of the page in another container to center all the content. -->
 
-  <div class="container marketing">
+  <div id="whyus" class="container marketing">
+    <div>
+      <h3><span class="h3_span1">OUR</span> <span class="h3_span2">ADVANTAGES</span></h3>
+      <p class="para-one">Lorem ipsum dolor sid amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
+        <br/> 
+        tempor invidunt ut labore et dolore magna aliquyam erat</p>
+    </div>
 
-    <!-- Three columns of text below the carousel -->
+    <!-- Five columns of text below the carousel -->
     <div class="row">
-      <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+      <div class="col heading1 > h5" style="text-align: center;">
+        <svg width="150" height="150">
+          <circle cx="75" cy="75" r="50" fill="#f1f2f2" />
+          <text border-style= "solid" x="50%" y="60%" text-anchor="middle" fill="#8dc63f" font-size="50px" font-family="FontAwesome;" text-dy=".3em" > 	&#xf0eb;</text>
+        </svg>        
+        <h5>INNOVATION</h5>
+        <p class=para-two>lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</p>
+      </div><!-- /.col -->
 
-        <h2>Heading</h2>
-        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-      </div><!-- /.col-lg-4 -->
-      <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+      <div class="col heading1 > h5" style="text-align: center;">
+        <svg width="150" height="150">
+          <circle cx="75" cy="75" r="50" fill="#f1f2f2" />
+          <text border-style= "solid" x="50%" y="60%" text-anchor="middle" fill="#8dc63f" font-size="50px" font-family="FontAwesome;" text-dy=".3em"> 	&#xf164;</text>
+        </svg>        
+        <h5>QUALITY</h5>
+        <p class="para-two">lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</p>
+      </div><!-- /.col -->
 
-        <h2>Heading</h2>
-        <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-      </div><!-- /.col-lg-4 -->
-      <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+      <div class="col heading1 > h5" style="text-align: center;">
+        <svg width="150" height="150">
+          <circle cx="75" cy="75" r="50" fill="#f1f2f2" />
+          <text border-style= "solid" x="50%" y="60%" text-anchor="middle" fill="#8dc63f" font-size="50px" font-family="FontAwesome;" text-dy=".3em"> 	&#xf017;</text>
+        </svg>    
+        <h5>EXPERIENCE</h5>
+        <p class="para-two">lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</p>
+      </div><!-- /.col -->
 
-        <h2>Heading</h2>
-        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+      <div class="col heading1 > h5" style="text-align: center;">
+        <svg  width="150" height="150">
+          <circle cx="75" cy="75" r="50" fill="#f1f2f2" />
+          <text border-style= "solid" x="50%" y="60%" text-anchor="middle" fill="#8dc63f" font-size="50px" font-family="FontAwesome;" text-dy=".3em"> 	&#xf0c0;</text>
+        </svg>
+        <h5>HAPPY CLIENTS</h5>
+        <p class="para-two">lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</p>  
+      </div><!-- /.col-->
+
+      <div class="col heading1 > h5" style="text-align: center;">
+        <svg  width="150" height="150">
+          <circle cx="75" cy="75" r="50" fill="#f1f2f2" />
+          <text border-style= "solid" x="50%" y="60%" text-anchor="middle" fill="#8dc63f" font-size="50px" font-family="FontAwesome;" text-dy=".3em"> 	&#xf086;</text>
+        </svg>
+        <h5>SUPPORT</h5>
+        <p class="para-two">lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</p>
       </div><!-- /.col-lg-4 -->
     </div><!-- /.row -->
+    
+    <hr/>
 
 
-    <!-- START THE FEATURETTES -->
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
+    <!-- ABOUT US-->
+    <div id="about" class="row featurette div-about">
+      <h3><span class="h3_span1">ABOUT</span> <span class="h3_span2">US</span></h3>
       <div class="col-md-7">
-        <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        
+        <p class="para-three">Lorem ipsu dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed dian voluptua.</p>
+        <p class="para-three">
+          At vergo eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit almet. Lorem ipsum dolor sit amet. Lorem ipsu dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed dian voluptua.
+        </p>
+        <p class="para-three">
+          Lorem ipsu dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed dian voluptua.
+          At vergo eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit almet. Lorem ipsum dolor sit amet. Lorem ipsu dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed dian voluptua.
+          </p>
+          <p><a class="btn  button1 underline-on-hover" href="#" role="button">READ MORE</a></p>
       </div>
       <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="400" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/>
+          <image xlink:href="./picture/aboutuspic.png" width="140%" height="100%"/>
+        </svg>
 
       </div>
     </div>
 
-    <hr class="featurette-divider">
+    <hr/>
 
-    <div class="row featurette">
-      <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+    <!-- OUR SERVICES-->
+    <div id="services">
+      <div  class="container marketing">
+        <div>
+          <h3><span class="h3_span1">OUR</span> <span class="h3_span2">SERVICES</span></h3>
+          <p class="para-one">Lorem ipsum dolor sid amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
+            <br/> 
+            tempor invidunt ut labore et dolore magna aliquyam erat</p>
+         </div>
       </div>
-      <div class="col-md-5 order-md-1">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+    
+      <div class="row" style="display:-moz-grid-line">
+        <div class="col">
+          <div class="border-services">
+            <div class="icon-services circle-icon-services pics">
+              <i class="fa fa-star"></i>
+            </div>
+            <div class="pics3">
+                <h5 class="services">WEB DESIGN</h5>
+                <p class="para-two">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</p>
+                <p ><a class="readmore_services" href="#">read more</a></p>
+            </div>
+          </div>    
+        </div>
+
+        <div class="col">
+          <div class="border-services">
+            <div class="icon-services circle-icon-services pics">
+              <i class="fa fa-star "></i>
+            </div>
+            <div class="pics3 ">
+                <h5 class="services">GRAPHIC DESIGN</h5>
+                <p class="para-two">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</p>
+                <p ><a class="readmore_services" href="#">read more</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="border-services">
+            <div class="icon-services circle-icon-services pics">
+              <i class="fa fa-star "></i>
+            </div>
+            <div class="pics3 ">
+                <h5 class="services">BRANDING</h5>
+                <p class="para-two">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</p>
+                <p ><a class="readmore_services" href="#">read more</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="border-services">
+            <div class="icon-services circle-icon-services pics">
+              <i class="fa fa-star "></i>
+            </div>
+            <div class="pics3 ">
+                <h5 class="services">MARKETING</h5>
+                <p class="para-two">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</p>
+                <p ><a  class="readmore_services" href="#">read more</a></p>
+            </div>
+          </div>
+        </div>
 
       </div>
     </div>
+    <hr/>
 
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+    <!-- PORTFOLIO-->
+    <div id="portfolio" style="background-color: black;">
+      <div  class="container marketing">
+        <div>
+          <h3><span class="h3_span1a">OUR</span> <span class="h3_span2">PORTFOLIO</span></h3>
+          <p class="para-one">Lorem ipsum dolor sid amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
+            <br/> 
+            tempor invidunt ut labore et dolore magna aliquyam erat
+          </p>
+        </div>
       </div>
-      <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+ 
+      <nav>
+        <div class="nav nav-tabs justify-content-center" id="nav-tab" >
+          <ul class="nav  nav-portfolio" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link portfolio-hover" id="BRANDING-tab" href="#BRANDING" role="tab" aria-controls="BRANDING" aria-selected="false">WEB DESIGN</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link portfolio-hover" id="BRANDING-tab" href="#BRANDING" role="tab" aria-controls="BRANDING" aria-selected="false">GRAPHIC DESIGN</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link portfolio-hover" id="BRANDING" href="#BRANDING" role="tab" aria-controls="BRANDING" aria-selected="true">BRANDING</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link portfolio-hover"  id="LOGO-tab" href="#LOGO" aria-controls="nav-LOGO" aria-selected="false" style="color: #ff831d; font-weight: bolder;" href="#LOGO">LOGO</a> 
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link  portfolio-hover" id="BRANDING-tab" href="#BRANDING" role="tab" aria-controls="BRANDING" aria-selected="false" >MARKETING</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link portfolio-hover" id="BRANDING-tab" href="#BRANDING" role="tab" aria-controls="BRANDING" aria-selected="false" >ADVERTISEMENT</a>
+            </li>
+          </ul>
+       </div>
+      </nav>
 
+      <div class="tab-content" id="myTabContent">
+
+        <div class="tab-pane fade show active" id="LOGO" role="tabpanel" aria-labelledby="LOGO-tab">
+          <table class="table-portfolio-pics">
+            <tr style="padding-bottom: 0px;">
+              <td> <img src="./picture/profile1.png"/> </td>
+              <td> <img src="./picture/profile2.png"/> </td>
+              <td> <img src="./picture/profile3.png"/> </td>
+              <td> <img src="./picture/profile4.png"/> </td>
+              <td> <img src="./picture/profile5.png"/> </td>
+            </tr>
+
+            <tr>
+              <td> <img src="./picture/profile6.png"/> </td>
+              <td> <img src="./picture/profile7.png"/> </td>
+              <td> <img src="./picture/profile8.png"/> </td>
+              <td> <img src="./picture/profile9.png"/> </td>
+              <td> <img src="./picture/profile10.png"/></td>
+            </tr>
+          </table>
+        
+        </div>
+
+        <div class="tab-pane fade show" id="BRANDING" role="tabpanel" aria-labelledby="BRANDIND">
+          <table class="table-portfolio-pics">
+            <tr style="padding-bottom: 0px;">
+              <td> <img src="./picture/profile6.png"/> </td>
+              <td> <img src="./picture/profile7.png"/> </td>
+              <td> <img src="./picture/profile8.png"/> </td>
+              <td> <img src="./picture/profile9.png"/> </td>
+              <td> <img src="./picture/profile10.png"/></td>
+            </tr>
+            <tr>
+              <td> <img src="./picture/profile1.png"/> </td>
+              <td> <img src="./picture/profile2.png"/> </td>
+              <td> <img src="./picture/profile3.png"/> </td>
+              <td> <img src="./picture/profile4.png"/> </td>
+              <td> <img src="./picture/profile5.png"/> </td>
+            </tr>
+          </table>
+
+        </div>
       </div>
+    
+    <hr/>    
+  </div> <!-- /.container -->
+  
+<!-- OUR PROCESS-->
+<div id="process">
+  <div  class="container">
+    <div>
+      <h3><span class="h3_span1">OUR</span> <span class="h3_span2">PROCESS</span></h3>
+      <p class="para-one">Lorem ipsum dolor sid amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
+        <br/> 
+        tempor invidunt ut labore et dolore magna aliquyam erat</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+        <div class="col process">
+            <div class="circle-process">
+                <div class="pics10"></div>
+                <p class="pics5">1</p>
+            </div>
+            <div class="circle-icon-process">
+                <i class="fa fa-mobile"></i>
+            </div>
+            <div class="pics13">
+                <h5 class="web11">REQUEST CALL</h5>
+                <p class="web10">Lorem ipsum dolor sit amet, consectetur </p>
+            </div>
+        </div>
+        <div class="line">    </div>
+        <div class="col">
+            <div class="circle-process">
+                <div class="pics10"></div>
+                <p class="pics5">2</p>
+            </div>
+            <div class="circle-icon-process">
+                <i class="fa fa-comments-o"></i>
+            </div>
+            <div class="pics13">
+                <h5 class="web11">CONSULTATION</h5>
+                <p class="web10">Lorem ipsum dolor sit amet, consectetur </p>
+            </div>
+        </div>
+        <div class="line">    </div>
+        <div class="col">
+            <div class="circle-process">
+                <div class="pics10"></div>
+                <p class="pics5">3</p>
+            </div>
+            <div class="circle-icon-process">
+                <i class="fa fa-sitemap"></i>
+            </div>
+            <div class="pics13">
+                <h5 class="web11">PLANING</h5>
+                <p class="web10">Lorem ipsum dolor sit amet, consectetur </p>
+            </div>
+        </div>
+        <div class="line">    </div>
+        <div class="col">
+            <div class="circle-process">
+                <div class="pics10"></div>
+                <p class="pics5">4</p>
+            </div>
+            <div class="circle-icon-process">
+                <i class="fa fa-cog"></i>
+            </div>
+            <div class="pics13">
+                <h5 class="web11">WORK PROCESS</h5>
+                <p class="web10">Lorem ipsum dolor sit amet, consectetur </p>
+            </div>
+        </div>
+        <div class="line">    </div>
+        <div class="col">
+            <div class="circle-process">
+                <div class="pics10"></div>
+                <p class="pics5">5</p>
+            </div>
+            <div class="circle-icon-process">
+                <i class="fa fa-pencil-square-o"></i>
+            </div>
+            <div class="pics13">
+                <h5 class="web11">CORRECTING</h5>
+                <p class="web10">Lorem ipsum dolor sit amet, consectetur </p>
+            </div>
+        </div>
+        <div class="line">    </div>
+        <div class="col">
+            <div class="circle-process">
+                <div class="pics10"></div>
+                <p class="pics5">6</p>
+            </div>
+            <div class="circle-icon-process">
+                <i class="fa fa-check-square-o"></i>
+            </div>
+            <div class="pics13">
+                <h5 class="web11">DELIVER</h5>
+                <p class="web10">Lorem ipsum dolor sit amet, consectetur </p>
+            </div>
+        </div>
+
+    </div>
+  </div>
+</div>
+
+
+<!-- PEOPLE ABOUT US-->
+<div class="people" id="reviews">
+  <div  class="container">
+    <div>
+      <h3><span class="h3_span1">PEOPLE</span> <span class="h3_span2">ABOUT US</span></h3>
+      <p class="para-one">Lorem ipsum dolor sid amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
+        <br/> 
+        tempor invidunt ut labore et dolore magna aliquyam erat</p>
+    </div>
+  </div>
+
+  <div class="people-row " style="display: flex; align-items: center;">
+    <div class="people-col">
+      <i class="fa fa-user-circle-o people-icon-aboutus"></i>
+    </div>
+    <div>
+      <h5 class="peopleheading">JOHN DOE</h5>
+      
+      <p> 
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+        sed diam nonumy eirmod tempor invidunt ut labore et
+        dolore magna aliquyam erat, sed diam voluptua.
+      </p>
+    </div>
+    <div class="vline-people">    </div>
+    <div class="people-col">
+      <i class="fa fa-user-circle-o people-icon-aboutus"></i>
+    </div>
+    <div>
+      <h5 class="peopleheading">JOHN DOE</h5>
+    
+      <p> 
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+        sed diam nonumy eirmod tempor invidunt ut labore et
+        dolore magna aliquyam erat, sed diam voluptua.
+      </p>
+    </div>
+    
+  </div>
+  <div class="hline-people">    </div>
+  <div class="people-row" style="display: flex; align-items: center;">
+    <div class="people-col">
+      <i class="fa fa-user-circle-o people-icon-aboutus"></i>
+    </div>
+    <div>
+        <h5 class="peopleheading">JOHN DOE</h5>
+     
+        <p> 
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+          sed diam nonumy eirmod tempor invidunt ut labore et
+          dolore magna aliquyam erat, sed diam voluptua.
+        </p>
+    </div>
+    <div class="people-col">
+        <i class="fa fa-user-circle-o people-icon-aboutus"></i>
+    </div>
+    <div>
+      <h5 class="peopleheading">JOHN DOE</h5>
+      
+      <p> 
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+        sed diam nonumy eirmod tempor invidunt ut labore et
+        dolore magna aliquyam erat, sed diam voluptua.
+      </p>
+    </div>
+  </div>
+
+</div>
+
+<!-- OUR SKILLS-->
+<div id="skillS">
+  <div  class="container">
+    <div>
+      <h3><span class="h3_span1">OUR</span> <span class="h3_span2">SKILLS</span></h3>
+      <p class="para-one">Lorem ipsum dolor sid amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
+        <br/> 
+        tempor invidunt ut labore et dolore magna aliquyam erat</p>
+    </div>
+  </div>
+
+  <div class="container" style="margin-bottom: 30px;">
+    <div class="row">
+        <div class="col">
+            <div class="circle2-a">
+                <div class="circle2">45%</div>
+            </div>
+            <div class=skills>
+              SEO & ADS
+            </div>
+        </div>
+        <div class="col ">
+            <div class="circle2-b">
+                <div class="circle2">60%</div>
+            </div>
+            <div class=skills> 
+              BRANDING
+            </div>
+        </div>
+        <div class="col">
+            <div class="circle2-c">
+                <div class="circle2">75%</div>
+            </div >
+            <div class=skills>
+              WEB DESIGN
+            </div>
+        </div>
+        <div class="col">
+            <div class="circle2-d">
+                <div class="circle2">80%</div>
+            </div>
+            <div class=skills>
+              WEB DESIGN
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--start new project form-->
+<div  class="container form" id="form" style="background-color: #8dc63f;">
+  <div>
+    <h1 class="form1">START YOUR NEW PROJECT </h1>
+  </div>
+
+  <form action="index.html" method="GET"></form>
+  <div class="row" style="margin-right: 50px; margin-left: 80px; ">
+    <div class="col">
+        <input type="text" class="form-control" placeholder="YOUR NAME" aria-label="YOUR NAME">
+    </div>
+    <div class="col">
+        <input type="email" class="form-control" placeholder="YOUR EMAIL" aria-label="YOUR EMAIL">
+    </div>
+    <div class="col">
+        <input type="text" class="form-control" placeholder="YOUR PHONE" aria-label="PHONE">
+    </div>
+    <div class="col">
+        <button type="submit" class="btn  button1 underline-on-hover">SEND REQUEST</button>
+      </form>
+    </div>
+  </div>
+    <!-- <input type="Submit" name="submit" value="Submit review"/> -->
+  <div>
+    <p style="color: blanchedalmond; text-align: center; padding-bottom: 20px; padding-top: 20px;">Lorem ipsum dolor sid amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
+      <br/> 
+      tempor invidunt ut labore et dolore magna aliquyam erat</p>
+  </div>
+</div>
+
+
+<!--CONTACT US-->
+<div class="contactus" id="contact">
+  <div  class="container">
+    <div>
+      <h3><span class="h3_span1">OUR</span> <span class="h3_span2">CONTACTS</span></h3>
+      <p class="para-one">Lorem ipsum dolor sid amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
+        <br/> 
+        tempor invidunt ut labore et dolore magna aliquyam erat</p>
+    </div>
+  </div>
+
+  <div>
+    <div class="conteact_icon">
+        <div class="social2"><i class=" fa fa-map-marker" style="color: #8dc63f; font-size: 20px;"></i>
+            Lorem ipsum dolor sit amet, consectetur sadipisicing elitr, sed diam nonumy eirmod</div>
+    </div>
+    <div class="social2">
+        <div class="social_icon" style="color: black; margin-left: 5px;"><i class="fa fa-phone" style="color: #8dc63f;"></i> (304) 386-6719</div>
+        <div class="social_icon" style="color: black; margin-left: 5px;"><i class="fa fa-phone" style="color: #8dc63f;"></i> (317) 011-3001</div>
+        <div class="social_icon" style="color: black; margin-left: 5px;"><i class="fa fa-envelope" style="color: #8dc63f;"></i> info@website.com</div>
+    </div>
+  </div>
+
+  <div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28960.56941590848!2d67.0733211!3d24.8614185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33ff89c73993d%3A0x91c53ba630675f8!2sPresidential%20Initiative%20for%20Artificial%20Intelligence%20and%20Computing%20(PIAIC)%20Headquarters!5e0!3m2!1sen!2s!4v1611083207246!5m2!1sen!2s&amp;output=embed" width="100%" height="500" frameborder="0">
+    </iframe>
+  </div>
+</div>
+
+<footer class="container py-5 ">
+  <div class="row footer">
+    <div class="col-12 col-md">
+      <img src="./picture/pana2.png" style="width: 120px;"></img>
+    <p style="font-size: smaller; padding-top: 20px;">Lorem ipsum dolor sit amet, sonsetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+    <p ><small class="d-block mb-3 text-muted footer-col">&copy; Panacloud 2019</small> </p>
+    </div>
+    <div class="col-6 col-md">
+      <h5 class="footer-col">SERVICES</h5>
+      <ul class="footer-col no-bullets" >
+        <li><a   href="#">Lorem Ipsum</a></li>
+        <li><a   href="#">Lorem</a></li>
+        <li><a   href="#">Lorem Ipsum Dolor</a></li>
+        <li><a   href="#">Lorem Ipsum</a></li>
+        <li><a   href="#">Lorem</a></li>
+        <li><a   href="#">Lorem Ipsum Dolor</a></li>
+        <li><a   href="#">Lorem Ipsum Dolor</a></li>
+      </ul>
+    </div>
+    
+    <div class="vline-footer">    </div>
+
+    <div class="col-6 col-md footer-col">
+      <h5 class="footer-col">USEFUL LINKS</h5>
+      <ul class="text-small no-bullets">
+        <li><a   href="#">Lorem Ipsum</a></li>
+        <li><a   href="#">Lorem</a></li>
+        <li><a   href="#">Lorem Ipsum Dolor</a></li>
+        <li><a   href="#">Lorem Ipsum</a></li>
+        <li><a   href="#">Lorem</a></li>
+        <li><a   href="#">Lorem Ipsum Dolor</a></li>
+        <li><a   href="#">Lorem Ipsum Dolor</a></li>
+      </ul>
     </div>
 
-    <hr class="featurette-divider">
+    <div class="vline-footer">    </div>
 
-    <!-- /END THE FEATURETTES -->
-
-  </div><!-- /.container -->
-
-
-  <!-- FOOTER -->
-  <footer class="container">
-    <p class="float-end"><a href="#">Back to top</a></p>
-    <p>&copy; 2017-2020 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-  </footer>
+    <div class="col-6 col-md footer-col" style="margin-top: -25px;">
+      <h5 class="footer-col">CONTACTS</h5>
+      <ul class="text-small no-bullets" >
+        <li> <div> <i class="fa fa-phone"></i> +92(304) 386-6719</div>
+        </li>
+        <li> <div> <i class="fa fa-phone"></i> +92(317) 011-3001</div>
+        </li>
+        <li> <div> <i class="fa fa-envelope"></i> info@website.com</div>  
+        </li>
+      </ul>
+    
+      <br/>
+      <div class="footer-col" style="display: inline;">
+      <h5 class="footer-col">FOLLOW US</h5>
+      </div>
+      <div class="social">
+        <div class="media-footer circle-icon-footer"><i class="fa fa-facebook"></i></div>
+        <div class="media-footer circle-icon-footer"><i class="fa fa-twitter"></i></div>
+        <div class="media-footer circle-icon-footer"><i class="fa fa-google-plus"></i></div>
+        <div class="media-footer circle-icon-footer"><i class="fa fa-linkedin"></i></div>
+        <div class="media-footer circle-icon-footer"><i class="fa fa-youtube"></i></div>
+    </div>
+    </div>
+  </div>
+</footer>
 <!-- </main> -->
 
 
-    <script src="bootstrap.bundle.min.js"></script>
+    <script  src="bootstrap.bundle.min.js"></script>
+    
 
-      
   </body>
 </html>
